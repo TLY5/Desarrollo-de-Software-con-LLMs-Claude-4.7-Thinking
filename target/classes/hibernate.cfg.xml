@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- Propiedades de conexión a la base de datos -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/biblioteca?useSSL=false&amp;serverTimezone=UTC</property>
+        <property name="hibernate.connection.username">usuario_biblioteca</property>
+        <property name="hibernate.connection.password">contraseña_segura</property>
+        
+        <!-- Dialecto SQL para MySQL -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+        
+        <!-- Configuración de HikariCP -->
+        <property name="hibernate.connection.provider_class">org.hibernate.hikaricp.internal.HikariCPConnectionProvider</property>
+        <property name="hibernate.hikari.minimumIdle">5</property>
+        <property name="hibernate.hikari.maximumPoolSize">10</property>
+        <property name="hibernate.hikari.idleTimeout">30000</property>
+        
+        <!-- Configuración de sesiones Hibernate -->
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        
+        <!-- Estrategia para la generación/actualización de esquemas -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        
+        <!-- Mapeo de clases de entidad -->
+        <mapping class="es.uclm.esi.iso2.bibliotecamonolitica.modelo.entidades.Libro"/>
+        <mapping class="es.uclm.esi.iso2.bibliotecamonolitica.modelo.entidades.Ejemplar"/>
+        <mapping class="es.uclm.esi.iso2.bibliotecamonolitica.modelo.entidades.Usuario"/>
+        <mapping class="es.uclm.esi.iso2.bibliotecamonolitica.modelo.entidades.Prestamo"/>
+        <mapping class="es.uclm.esi.iso2.bibliotecamonolitica.modelo.entidades.DetallePrestamo"/>
+        <mapping class="es.uclm.esi.iso2.bibliotecamonolitica.modelo.entidades.Multa"/>
+        <mapping class="es.uclm.esi.iso2.bibliotecamonolitica.modelo.entidades.Categoria"/>
+    </session-factory>
+</hibernate-configuration>
