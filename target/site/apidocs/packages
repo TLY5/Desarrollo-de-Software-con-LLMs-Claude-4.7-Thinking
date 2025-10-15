@@ -1,0 +1,7 @@
+es.uclm.esi.iso2.bibliotecamonolitica.util.excepciones
+es.uclm.esi.iso2.bibliotecamonolitica.modelo.servicios
+es.uclm.esi.iso2.bibliotecamonolitica.modelo.entidades
+es.uclm.esi.iso2.bibliotecamonolitica.modelo.interfaces
+es.uclm.esi.iso2.bibliotecamonolitica.persistencia.conexion
+es.uclm.esi.iso2.bibliotecamonolitica.persistencia.daos
+es.uclm.esi.iso2.bibliotecamonolitica

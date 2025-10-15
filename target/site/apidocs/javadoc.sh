@@ -1,0 +1,1 @@
+/opt/homebrew/Cellar/openjdk/25/libexec/openjdk.jdk/Contents/Home/bin/javadoc @options @packages

@@ -1,0 +1,11 @@
+/Users/jose/Universidad/Asignaturas/1º Cuatrimestre/Ingeniería del Software II/Laboratorio/bibliotecamonolitica/src/main/java/es/uclm/esi/iso2/bibliotecamonolitica/persistencia/daos/LibroDAO.java
+/Users/jose/Universidad/Asignaturas/1º Cuatrimestre/Ingeniería del Software II/Laboratorio/bibliotecamonolitica/src/main/java/es/uclm/esi/iso2/bibliotecamonolitica/persistencia/daos/GenericDAO.java
+/Users/jose/Universidad/Asignaturas/1º Cuatrimestre/Ingeniería del Software II/Laboratorio/bibliotecamonolitica/src/main/java/es/uclm/esi/iso2/bibliotecamonolitica/modelo/entidades/Usuario.java
+/Users/jose/Universidad/Asignaturas/1º Cuatrimestre/Ingeniería del Software II/Laboratorio/bibliotecamonolitica/src/main/java/es/uclm/esi/iso2/bibliotecamonolitica/App.java
+/Users/jose/Universidad/Asignaturas/1º Cuatrimestre/Ingeniería del Software II/Laboratorio/bibliotecamonolitica/src/main/java/es/uclm/esi/iso2/bibliotecamonolitica/persistencia/conexion/Agent.java
+/Users/jose/Universidad/Asignaturas/1º Cuatrimestre/Ingeniería del Software II/Laboratorio/bibliotecamonolitica/src/main/java/es/uclm/esi/iso2/bibliotecamonolitica/modelo/entidades/Libro.java
+/Users/jose/Universidad/Asignaturas/1º Cuatrimestre/Ingeniería del Software II/Laboratorio/bibliotecamonolitica/src/main/java/es/uclm/esi/iso2/bibliotecamonolitica/modelo/interfaces/IRepositorioLibro.java
+/Users/jose/Universidad/Asignaturas/1º Cuatrimestre/Ingeniería del Software II/Laboratorio/bibliotecamonolitica/src/main/java/es/uclm/esi/iso2/bibliotecamonolitica/persistencia/daos/UsuarioDAO.java
+/Users/jose/Universidad/Asignaturas/1º Cuatrimestre/Ingeniería del Software II/Laboratorio/bibliotecamonolitica/src/main/java/es/uclm/esi/iso2/bibliotecamonolitica/modelo/servicios/ServicioPrestamo.java
+/Users/jose/Universidad/Asignaturas/1º Cuatrimestre/Ingeniería del Software II/Laboratorio/bibliotecamonolitica/src/main/java/es/uclm/esi/iso2/bibliotecamonolitica/util/excepciones/NotNullValueAllowedException.java
+/Users/jose/Universidad/Asignaturas/1º Cuatrimestre/Ingeniería del Software II/Laboratorio/bibliotecamonolitica/src/main/java/es/uclm/esi/iso2/bibliotecamonolitica/persistencia/conexion/AgentMySQL.java
